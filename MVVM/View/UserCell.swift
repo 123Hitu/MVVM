@@ -15,7 +15,7 @@ class UserCell: UITableViewCell {
     @IBOutlet weak var userImage : CustomImageView?
     var index:Int = 0
     
-    var vc : ViewController?
+    weak var vc : ViewController?
     
     override func prepareForReuse() {
         super.prepareForReuse()
